@@ -6,7 +6,11 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var wordsmith = new WordSmith();
+            bool palindrome = wordsmith.IsAPalindrome("kayak");
+            Console.WriteLine(palindrome);
         }
+
     }
+
 }
